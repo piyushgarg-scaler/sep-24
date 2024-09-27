@@ -1,0 +1,25 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  color: red;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h1 {
+  color: green;
+}
+
+.one {
+  background-color: pink;
+}
+
+.two {
+  background-color: darkorange;
+}
+
+#one1 {
+  color: lawngreen;
+}
