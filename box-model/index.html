@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      #element-a {
+        background-color: lightblue;
+        height: 150px;
+        width: 150px;
+        padding: 30px;
+
+        /* 
+        padding-top: 10px;
+        padding-right: 12px; 
+        padding-bottom: 60px;
+        padding-left: 30px;
+        */
+
+        /* padding: 10px 12px 60px 30px; */
+        /* padding: 80px 80px; */
+        /*       TB | LR */
+
+        /* border: 10px solid green; */
+        /* border-radius: 30px 100px 130px 200px; */
+
+        /* border-color: red; */
+      }
+
+      #element-b {
+        background-color: lightcoral;
+        height: 150px;
+        width: 50%;
+        padding: 30px;
+        margin-top: 10px;
+      }
+
+      #element-c {
+        background-color: lightgreen;
+        height: 150px;
+        width: 150px;
+        padding: 30px;
+        margin-top: 10px;
+      }
+
+      #parent {
+        width: 900px;
+        border: 1px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="element-a">A</div>
+    <div id="parent">
+      <div id="element-b">B</div>
+    </div>
+
+    <div id="element-c">B</div>
+  </body>
+</html>
