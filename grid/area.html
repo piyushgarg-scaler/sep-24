@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      display: grid;
+      gap: 10px;
+      grid-template-areas:
+        "header header header"
+        "main ads ads"
+        "footer footer footer";
+    }
+    .item {
+      background-color: lightpink;
+      height: 100px;
+    }
+    .navbar {
+      grid-area: header;
+    }
+    .main {
+      grid-area: main;
+    }
+    .ads {
+      grid-area: ads;
+    }
+    .footer {
+      grid-area: footer;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="navbar item">Navbar</div>
+      <div class="main item">Main Content</div>
+      <div class="ads item">Ads</div>
+      <div class="footer item">Footer</div>
+    </div>
+  </body>
+</html>

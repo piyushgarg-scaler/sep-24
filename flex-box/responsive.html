@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      .parent {
+        background-color: lightblue;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .child {
+        background-color: lightyellow;
+
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      /* Biger Screens Device */
+      @media only screen and (min-width: 768px) {
+        .parent {
+          flex-direction: row;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">
+        <p>HTML & CSS Course</p>
+      </div>
+      <div class="child">
+        <p>Javascript Course</p>
+      </div>
+      <div class="child">
+        <p>NodeJS Course</p>
+      </div>
+      <div class="child">
+        <p>React Course</p>
+      </div>
+    </div>
+  </body>
+</html>

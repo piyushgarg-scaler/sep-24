@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 12vw);
+        grid-template-rows: repeat(8, 12vw);
+        gap: 10px;
+
+        grid-auto-flow: column dense;
+      }
+
+      .special {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery">
+      <img src="https://picsum.photos/seed/seed4/600" alt="" />
+      <img class="special" src="https://picsum.photos/seed/seed5/600" alt="" />
+      <img src="https://picsum.photos/seed/seed6/600" alt="" />
+      <img class="special" src="https://picsum.photos/seed/seed8/600" alt="" />
+      <img src="https://picsum.photos/seed/seed7/600" alt="" />
+      <img class="special" src="https://picsum.photos/seed/seed9/600" alt="" />
+      <img src="https://picsum.photos/seed/seed12/600" alt="" />
+      <img src="https://picsum.photos/seed/seed13/600" alt="" />
+      <img src="https://picsum.photos/seed/see1d/600" alt="" />
+      <img src="https://picsum.photos/seed/see2d/600" alt="" />
+    </div>
+  </body>
+</html>
