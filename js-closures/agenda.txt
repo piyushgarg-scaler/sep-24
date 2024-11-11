@@ -1,0 +1,7 @@
+- Lexical Scope
+- Intro to closures (V Important, Coding & Interviews)
+- Nested closure
+- Application of closure
+    - Infinite Currying
+    - Creating Private variables using closure
+    - Creating Memoized function

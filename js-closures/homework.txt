@@ -1,0 +1,21 @@
+1. Implement a funtion createStack which creates a stack and retuns an obj with push, peek and pop functions
+
+2. Explore Infinite Currying in JS using Closures
+
+
+1. 
+function createStack() {
+    let s = []
+
+    return {
+        push: function(v) {},
+        pop: function() {}
+        peek: function() {}
+    }
+}
+
+const s1 = createStack()
+const s2 = createStack()
+
+s1.pop()
+s2.pop()
