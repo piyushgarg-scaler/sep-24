@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .container {
+        position: relative;
+        width: 150px;
+      }
+
+      #search-input {
+        width: 100%;
+        padding: 10px;
+      }
+
+      #suggestion-container {
+        position: absolute;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+        line-height: 20px;
+      }
+
+      #suggestion-container p {
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      #suggestion-container p:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <input id="search-input" placeholder="Type Something..." />
+      <div id="suggestion-container"></div>
+    </div>
+
+    <script src="trie.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
