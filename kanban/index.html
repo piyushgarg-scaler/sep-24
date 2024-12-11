@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .container {
+        display: flex;
+        gap: 10px;
+      }
+      .board {
+        width: 200px;
+        height: 90vh;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px;
+      }
+      .board .heading {
+        text-align: center;
+      }
+      .card {
+        border: 1px solid #e4e4e4;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+    <script src="kanban.js"></script>
+  </body>
+</html>
